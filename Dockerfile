@@ -1,18 +1,10 @@
-# Define la imagen base
-FROM node:16-alpine
-
-# Establece el directorio de trabajo
+FROM node:20.5.1-alpine
+RUN mkdir -p /app
 WORKDIR /app
-
-# Copia los archivos de dependencias y los instala
-COPY package*.json ./
-RUN npm install
-
-# Copia el resto del código fuente
 COPY . .
-
-# Expone el puerto en el que corre la aplicación
-EXPOSE 3005
-
-# Comando para ejecutar la aplicación
-CMD ["node", "index.js"]
+RUN npm cache clean --force
+RUN npm install
+RUN npm run build
+RUN npm install -g serve
+EXPOSE 3000
+ENTRYPOINT ["serve", "-s", "build", "-l", "3000"]
