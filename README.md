@@ -1,6 +1,17 @@
 # Implementación de Docker en GitHub
+## **_Construido con_** 🛠️
 
-![Logo de Docker](https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png)
+<div style="text-align: left">
+    <p>
+        <a href="https://code.visualstudio.com" target="_blank"> 
+            <img alt="Docker" src="https://miro.medium.com/v2/resize:fit:728/1*kjZhVc8uPnFOhkxK1Ic9Gg.jpeg" height="60" width="60" style="vertical-align: bottom;">
+        </a>
+        <a href="https://www.ansible.com" target="_blank">
+            <img src="https://www.ansible.com/images/project-logos/ansible-core.svg" width="60" alt="Ansible Logo" style="vertical-align: bottom;">
+        </a>
+    </p>
+</div>
+---
 
 Este repositorio contiene un proyecto de Node.js que se implementa mediante Docker en GitHub Actions y se empuja a DockerHub.
 
@@ -143,3 +154,11 @@ Esta sección se ha movido aquí: [https://facebook.github.io/create-react-app/d
 ### `npm run build` no se minimiza
 
 Esta sección se ha movido aquí: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+## **_Autor_** ✒️
+
+<div style="text-align: left">
+    <a href="https://github.com/G20-00" target="_blank"> <img alt="G20-00" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/70019070?v=4&h=60&w=60&fit=cover&mask=circle"></a>
+</div>
