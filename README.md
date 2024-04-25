@@ -93,6 +93,7 @@ Este proyecto está bajo la [Licencia MIT](LICENSE).
 <p align="left">
   <img src="Img/DockerHub.png" alt="DockerHub" width="400" height="300" />
 </p>
+
 ### GitHub Actions
 <p align="left">
   <img src="Img/GitHubActions.png" alt="GitHub Actions" width="400" height="300" />
