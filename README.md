@@ -47,8 +47,10 @@ $ gh secret set DOCKER_PASSWORD
 
 ```bash
 ci-github-2024-1/
+├── .github
+    ├── workflows
+        ├── docker-build.yml
 ├── Dockerfile
-├── docker-build.yml
 ├── index.js
 ├── package.json
 └── ...
@@ -82,6 +84,20 @@ Estos comandos instalarán las dependencias del proyecto y luego ejecutarán la 
 ## Licencia
 
 Este proyecto está bajo la [Licencia MIT](LICENSE).
+
+---
+
+## Evidencia
+
+### DockerHub
+<p align="left">
+  <img src="Img/DockerHub.png" alt="DockerHub" width="400" height="300" />
+</p>
+### GitHub Actions
+<p align="left">
+  <img src="Img/GitHubActions.png" alt="GitHub Actions" width="400" height="300" />
+</p>
+
 
 ---
 
